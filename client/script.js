@@ -68,7 +68,7 @@ const handelSubmit = async (e) => {
 
  console.log(data.get("prompt"))
    
-  const response = await fetch('http://localhost:5000/', {
+  const response = await fetch('https://black-gpt.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
